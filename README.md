@@ -16,4 +16,4 @@ Node.js 22 이상과 pnpm이 필요합니다. 처음 한 번 `pnpm install`로 �
 
 ## GitHub Pages에 공개하기
 
-저장소의 **Settings → Pages → Build and deployment → Source**에서 **GitHub Actions**를 선택하세요. 이후 `main` 브랜치에 올리면 GitHub Actions가 사이트를 빌드해 공개합니다.
+사이트는 `main` 브랜치의 `/` 폴더에서 제공됩니다. 소스 코드는 `src` 폴더에 있습니다. 내용을 수정한 뒤 `pnpm build`를 실행하면 Pages가 읽을 정적 파일이 폴더 맨 위에 만들어집니다. 생성된 파일을 함께 커밋하고 `main`에 올리면 사이트가 업데이트됩니다.
