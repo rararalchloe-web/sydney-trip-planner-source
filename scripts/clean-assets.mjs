@@ -5,3 +5,6 @@ rmSync(fileURLToPath(new URL("../assets/", import.meta.url)), {
   recursive: true,
   force: true,
 });
+rmSync(fileURLToPath(new URL("../shopping-products.png", import.meta.url)), {
+  force: true,
+});

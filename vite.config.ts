@@ -6,7 +6,7 @@ export default defineConfig({
   root: fileURLToPath(new URL("./src", import.meta.url)),
   base: "./",
   plugins: [react()],
-  publicDir: fileURLToPath(new URL("./public", import.meta.url)),
+  publicDir: false,
   resolve: { alias: { "@": fileURLToPath(new URL("./src", import.meta.url)) } },
   build: {
     outDir: fileURLToPath(new URL(".", import.meta.url)),
